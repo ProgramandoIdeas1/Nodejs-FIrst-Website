@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pi-Node-First-web</title>
+    <%- include ('./partials/header') %>
+</head>
+
+<body>
+    <%- include ('./partials/navigation') %>
+    <main>
+        <div class="container">
+            <div class="row">
+                <p><%= title %></p>
+                <div class="col-lg-12 text-center p-5">
+                    <img class="animate__bounceIn" src="/img/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SECTION ONE -->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fab fa-youtube fa-10x"></i>
+            </div>
+            <div class="col-sm-6">
+                <h3>The most suscribed Youtuber</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur tempora dignissimos voluptate
+                    harum possimus autem quis quisquam, nulla quas nam, omnis blanditiis cumque repudiandae magni
+                    dolores fuga. Laudantium, amet.</p>
+            </div>
+        </div>
+    </div>
+    <%- include ('./partials/footer') %>
+</body>
+
+</html>
